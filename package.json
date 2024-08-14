@@ -1,0 +1,15 @@
+{
+  "name": "scrape",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "@types/axios": "^0.14.0",
+    "@types/node": "^22.3.0",
+    "axios": "^1.7.4",
+    "typescript": "^5.5.4"
+  },
+  "scripts": {
+    "scrape": "tsc && node dist/index.js"
+  }
+}
